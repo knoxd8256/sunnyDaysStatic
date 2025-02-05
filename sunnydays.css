@@ -167,19 +167,10 @@ hr {
 	max-height: 600px;
 	border-radius: 2rem;
 }
-/* 
 @media (max-width: 500px) {
-	.headimg img {
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-	.headimg {
-		width: 94%;
-		margin: 2rem 3%;
-	}
+	html {font-size: 150%;}
 }
-
+	/*
 @media (min-width: 1150px) {
 	.headimg {
 		width: 600px;
