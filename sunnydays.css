@@ -105,10 +105,26 @@ footer {
 	margin:0;
 	bottom:0;
 	padding:0;
+	display: flex;
+	justify-content: center;
+}
+footer container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: min-content;
+	align-content: center;
 }
 footer p {
 	position: relative;
-	width:100%;
+	width: max-content;
+	padding: .5em;
+}
+.social-icon {
+	height: 1.5em;
+	padding: .5em;
+	margin: 0;
+	width: 1.5em;
 }
 p {
 	font-family: "Klee One", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
